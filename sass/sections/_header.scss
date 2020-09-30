@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    padding: 3rem 6rem;
+    justify-content: space-between;
+    font-family: raleway;
+    font-weight: 400;
+    color: $Very-Dark-Blue;
+    align-items: center;
+
+    @media only screen and (max-width: 62.5em) {
+        padding: 5rem 3rem;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+        padding: 4rem 2rem;
+    }
+
+    &__logo-img {
+        width: 13rem;
+
+        @media only screen and (max-width: 37.5em) {
+            width: 10rem;
+        }
+    }
+
+    &__nav ul {
+        display: flex;
+        font-size: 2rem;
+        list-style: none;
+
+        & a {
+            text-decoration: none;
+            margin-right: 1rem;
+
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+
+            @media only screen and (max-width: 62.5em) {
+                font-size: 1.4rem;
+            }
+
+            @media only screen and (max-width: 37.5em) {
+                font-size: 1.2rem;
+            }
+        }
+
+        & li {
+
+        }
+    }
+}
