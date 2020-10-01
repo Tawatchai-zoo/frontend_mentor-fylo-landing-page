@@ -56,6 +56,10 @@
         }
     }
 
+    &__social {
+        display: flex;
+    }
+
     &__icon {
         text-decoration: none;
         display: inline-flex;
@@ -65,9 +69,11 @@
         border: 1px solid white;
         height: 3rem;
         width: 3rem;
-        margin-right: 1rem;
+        margin-right: 1.5rem;
         color: white;
         transition: all .4s;
+        padding-top: 6px;
+        text-align: center;
 
         &:hover {
             color: $Very-Dark-Blue;

@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    padding: 3rem 6rem;
+    padding: 6rem 6rem;
     justify-content: space-between;
     font-family: raleway;
     font-weight: 400;
@@ -16,7 +16,7 @@
     }
 
     &__logo-img {
-        width: 13rem;
+        width: 17rem;
 
         @media only screen and (max-width: 37.5em) {
             width: 10rem;
@@ -28,21 +28,28 @@
         font-size: 2rem;
         list-style: none;
 
-        & a {
-            text-decoration: none;
-            margin-right: 1rem;
-            color: $Desaturated-Blue;
+        & li {
 
             &:not(:last-child) {
-                margin-right: 1rem;
+                margin-right: 5rem;
+
+                @media only screen and (max-width: 62.5em) {
+                    margin-right: 2rem;
+                }
             }
 
-            @media only screen and (max-width: 62.5em) {
-                font-size: 1.4rem;
-            }
+            & a {
+                text-decoration: none;
+                color: $Desaturated-Blue;
+                font-size: 1.5rem;
 
-            @media only screen and (max-width: 37.5em) {
-                font-size: 1.2rem;
+                @media only screen and (max-width: 62.5em) {
+                    font-size: 1.4rem;
+                }
+    
+                @media only screen and (max-width: 37.5em) {
+                    font-size: 1.2rem;
+                }
             }
         }
 

@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="icon" href="img/favicon-32x32.png" type="image/png">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Fylo Landing Page</title>
 </head>
 <body>
@@ -24,9 +24,9 @@
 
         <nav class="header__nav">
             <ul>
-                <a href="#"><li>Features</li></a>
-                <a href="#"><li>Team</li></a>
-                <a href="#"><li>Sign In</li></a>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Sign In</a></li>
             </ul>
         </nav>
     </header>
@@ -37,8 +37,8 @@
             <p class="hero__text--paragraph paragraph">
                 Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.
             </p>
-            <form class="hero__form" action="">
-                <input type="email" class="input hero__form--input" placeholder="Enter your email...">
+            <form class="hero__form" action="#">
+                <input type="email" class="input hero__form--input" name="email" placeholder="Enter your email...">
                 <button class="btn hero__form--btn">Get Started</button>
             </form>
         </div>
@@ -87,8 +87,8 @@
             </p>
         </div>
 
-        <form class="cta__form" action="">
-            <input class="input cta__form--input" type="email" placeholder="email@example.com">
+        <form class="cta__form" action="#">
+            <input class="input cta__form--input" name="email" type="email" placeholder="email@example.com">
             <button class="btn cta__form--btn">Get Start For Free</button>
         </form>
     </section>
@@ -124,9 +124,9 @@
             </ul>
 
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class="social-icon fab fa-facebook-f"></i></a>
-                <a href="#" class="footer__icon"><i class="social-icon fab fa-twitter"></i></a>
-                <a href="#" class="footer__icon"><i class="social-icon fab fa-instagram"></i></a>
+                <i class="footer__icon social-icon fab fa-facebook-f"></i>
+                <i class="footer__icon social-icon fab fa-twitter"></i>
+                <i class="footer__icon social-icon fab fa-instagram"></i>
             </div>
         </div>
 
